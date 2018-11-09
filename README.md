@@ -1,2 +1,2 @@
 # Blog
-Powered by [Ghost](http://ghost.org) and [Buster](https://github.com/axitkhurana/buster/).
+Thoughts, adventures and ideas of a Dynamics 365, C Sharp Developer
