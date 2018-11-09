@@ -1,4 +1,4 @@
-User-agent: *
-Sitemap: http://localhost:2368/sitemap.xml
+﻿User-agent: *
+Sitemap: http://navigating365.com/sitemap.xml
 Disallow: /ghost/
 Disallow: /p/
