@@ -29,8 +29,6 @@
     <meta property="og:url" content="http://navigating365.com/quick-fix-visual-studio-2017-displaying-nav-report-layout-as-xml/">
     <meta property="article:published_time" content="2018-11-09T02:13:26.000Z">
     <meta property="article:modified_time" content="2018-11-09T02:13:26.000Z">
-    <meta property="article:tag" content="Microsoft Dynamics NAV">
-    
     <meta property="article:publisher" content="https://www.facebook.com/ghost">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Quick Fix: Visual Studio 2017 displaying NAV Report Layout as XML">
@@ -38,8 +36,6 @@
     <meta name="twitter:url" content="http://navigating365.com/quick-fix-visual-studio-2017-displaying-nav-report-layout-as-xml/">
     <meta name="twitter:label1" content="Written by">
     <meta name="twitter:data1" content="Kush">
-    <meta name="twitter:label2" content="Filed under">
-    <meta name="twitter:data2" content="Microsoft Dynamics NAV">
     <meta name="twitter:site" content="@tryghost">
     
     <script type="application/ld+json">
@@ -61,7 +57,6 @@
     "url": "http://navigating365.com/quick-fix-visual-studio-2017-displaying-nav-report-layout-as-xml/",
     "datePublished": "2018-11-09T02:13:26.000Z",
     "dateModified": "2018-11-09T02:13:26.000Z",
-    "keywords": "Microsoft Dynamics NAV",
     "description": "I have a problem with Visual Studio 2017 Professional Edition not displaying the NAV Report Layouts properly. It would open up as XML every time, instead of the visual layout.To Fix this issue, we should first update our Visual Studio to the latest version. We need to also install",
     "mainEntityOfPage": {
         "@type": "WebPage",
@@ -80,7 +75,7 @@ ghost.init({
     <meta name="generator" content="Ghost 2.5">
     <link rel="alternate" type="application/rss+xml" title="Navigating 365" href="../rss/index.html">
 	</head>
-	<body class="post-template tag-dynamics-nav">
+	<body class="post-template">
 		<header id="header">
 			<a id="logo" href="../"><img src="../content/images/2018/11/40056694_1832971660130841_4270120300307283968_n--2-.jpg" alt="Navigating 365"></a>
 			<h1><a href="../">Navigating 365</a></h1>
@@ -91,15 +86,13 @@ ghost.init({
 <a href="https://github.com/Kushal5" target="_blank"><i class="fa fa-github-square"></i></a>
 </div> 
 			  <div id="internal_link"><h5><a href="../">Home</a></h5></div>
-  <div id="internal_link"><h5><a href="../tag/dynamics-nav/">Dynamics NAV</a></h5></div>
-  <div id="internal_link"><h5><a href="../tag/c-sharp/">C Sharp</a></h5></div>
   <div id="internal_link"><h5><a href="../about-me/">About Me</a></h5></div>
 
                         <p>Thoughts, adventures and ideas of a Dynamics 365, C Sharp Developer</p>
 		</header>
 		<main id="content"> 
-			<article id="5be4ed37831c3864949be87b" class="post tag-dynamics-nav">
-	<div class="post-stamp">9 November 2018<span class="taglist"> · <a href="../tag/dynamics-nav/">Microsoft Dynamics NAV</a></span></div>
+			<article id="5be4ed37831c3864949be87b" class="post">
+	<div class="post-stamp">9 November 2018<span class="taglist"></span></div>
 	<h1 class="post-title">Quick Fix: Visual Studio 2017 displaying NAV Report Layout as XML</h1>
 	<p>I have a problem with Visual Studio 2017 Professional Edition not displaying the NAV Report Layouts properly. It would open up as XML every time, instead of the visual layout.</p><p>To Fix this issue, we should first update our Visual Studio to the latest version. We need to also install <a href="https://docs.microsoft.com/en-us/sql/ssdt/download-sql-server-data-tools-ssdt" rel="nofollow noopener"><strong><strong>"Microsoft SQL Server Data Tools"</strong></strong></a> for Visual Studio 2017. Make sure to install all( SQL Server Database, Analysis Services, Reporting Services and Integration Services).</p><p>We need to also ensure that SQL Data Tools is checked in Visual Studio. To do this, Navigate to Tools -&gt; Get Tools and Features -&gt; Check Data Storage and Processing Tabs and make sure that SQL Data Tools is checked.</p><figure class="kg-card kg-image-card"><img src="https://media.licdn.com/dms/image/C4D12AQHfEp3uFrbKaw/article-inline_image-shrink_1500_2232/0?e=1547078400&amp;v=beta&amp;t=b9IhOsPF2_rSb-ybEA1jl0Mpa8NodklCwZbZYObrCF4" class="kg-image"></figure><p><strong><strong>*Restart your PC</strong></strong></p><p>Now open up Visual Studio 2017, Tools -&gt; Extensions and Updates -&gt; Online -&gt; Search for Microsoft Rdlc Report Designer and install it. This may follow another restart. Do that and fire up Visual Studio again. The VSIX installer will run automatically and will stop. It will display that it is waiting for these applications to close(with their Process IDs). What I did was to close those Processes from Task Manager, after that the installer continued to install that.</p><p>Should this not work for you, in which case something is playing up with your SSDT and VS versioning, you will have to manually download Microsoft Integrations Services and Microsoft Analysis Services as Extensions from the Extensions and Updates menu in VS 2017.</p><p>Thats it! Your Visual Studio 2017 should now be opening RDLC reports in its proper format.</p><figure class="kg-card kg-image-card"><img src="https://media.licdn.com/dms/image/C4D12AQGoVCru_RZ3BQ/article-inline_image-shrink_1500_2232/0?e=1547078400&amp;v=beta&amp;t=IvlEQ9BkxUN2gmNgsBYCsK-NxdGW2HJarNXD0DL4nfc" class="kg-image"></figure><p>Special Thanks to @Tharanga N. Chandrasekara for the <a href="https://community.dynamics.com/nav/b/tharangacnavblog/archive/2017/03/12/quick-fix-visual-studio-displaying-nav-report-layout-as-xml" rel="nofollow noopener">2015 Visual Studio Solution </a>for NAV Reporting.</p>
 </article>  

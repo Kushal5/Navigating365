@@ -29,8 +29,6 @@
     <meta property="og:url" content="http://navigating365.com/relational-diagrams-for-dynamics-nav-objects/">
     <meta property="article:published_time" content="2018-11-09T02:13:00.000Z">
     <meta property="article:modified_time" content="2018-11-09T02:13:00.000Z">
-    <meta property="article:tag" content="Microsoft Dynamics NAV">
-    
     <meta property="article:publisher" content="https://www.facebook.com/ghost">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Relational Diagrams for Dynamics NAV Objects">
@@ -38,8 +36,6 @@
     <meta name="twitter:url" content="http://navigating365.com/relational-diagrams-for-dynamics-nav-objects/">
     <meta name="twitter:label1" content="Written by">
     <meta name="twitter:data1" content="Kush">
-    <meta name="twitter:label2" content="Filed under">
-    <meta name="twitter:data2" content="Microsoft Dynamics NAV">
     <meta name="twitter:site" content="@tryghost">
     
     <script type="application/ld+json">
@@ -61,7 +57,6 @@
     "url": "http://navigating365.com/relational-diagrams-for-dynamics-nav-objects/",
     "datePublished": "2018-11-09T02:13:00.000Z",
     "dateModified": "2018-11-09T02:13:00.000Z",
-    "keywords": "Microsoft Dynamics NAV",
     "description": "In Dynamics NAV, you will notice that creating Relational Diagrams for your objects is not very straight forward. There is no tutorial online that shows us how exactly to do this. In this article I will demonstrate how we can create Relational Diagrams for your Dynamics NAV Objects.//Step One:",
     "mainEntityOfPage": {
         "@type": "WebPage",
@@ -80,7 +75,7 @@ ghost.init({
     <meta name="generator" content="Ghost 2.5">
     <link rel="alternate" type="application/rss+xml" title="Navigating 365" href="../rss/index.html">
 	</head>
-	<body class="post-template tag-dynamics-nav">
+	<body class="post-template">
 		<header id="header">
 			<a id="logo" href="../"><img src="../content/images/2018/11/40056694_1832971660130841_4270120300307283968_n--2-.jpg" alt="Navigating 365"></a>
 			<h1><a href="../">Navigating 365</a></h1>
@@ -91,15 +86,13 @@ ghost.init({
 <a href="https://github.com/Kushal5" target="_blank"><i class="fa fa-github-square"></i></a>
 </div> 
 			  <div id="internal_link"><h5><a href="../">Home</a></h5></div>
-  <div id="internal_link"><h5><a href="../tag/dynamics-nav/">Dynamics NAV</a></h5></div>
-  <div id="internal_link"><h5><a href="../tag/c-sharp/">C Sharp</a></h5></div>
   <div id="internal_link"><h5><a href="../about-me/">About Me</a></h5></div>
 
                         <p>Thoughts, adventures and ideas of a Dynamics 365, C Sharp Developer</p>
 		</header>
 		<main id="content"> 
-			<article id="5be4ed19831c3864949be876" class="post tag-dynamics-nav">
-	<div class="post-stamp">9 November 2018<span class="taglist"> · <a href="../tag/dynamics-nav/">Microsoft Dynamics NAV</a></span></div>
+			<article id="5be4ed19831c3864949be876" class="post">
+	<div class="post-stamp">9 November 2018<span class="taglist"></span></div>
 	<h1 class="post-title">Relational Diagrams for Dynamics NAV Objects</h1>
 	<p>In Dynamics NAV, you will notice that creating Relational Diagrams for your objects is not very straight forward. There is no tutorial online that shows us how exactly to do this. In this article I will demonstrate how we can create Relational Diagrams for your Dynamics NAV Objects.</p><p><strong><strong>//Step One:</strong></strong></p><p>Open Visual Studio, Create A new project -&gt; Windows Classic Desktop Class Library(.NET Framework)</p><figure class="kg-card kg-image-card"><img src="https://media.licdn.com/dms/image/C4D12AQHTVp-k7_ppVw/article-inline_image-shrink_1000_1488/0?e=1547078400&amp;v=beta&amp;t=C6f_JZfadmv5N42uM8Ezb8SIj_1GnBcng0fe36Up-qQ" class="kg-image"></figure><p><strong><strong>//Step Two:</strong></strong></p><p>In your Solution Explorer, Add a new item -&gt; Data -&gt; ADO.NET Entity Data Model</p><p>EF Designer from database, and then select Microsoft SQL Server(SqlClient), and select your Server Name, and Database Name.</p><figure class="kg-card kg-image-card"><img src="https://media.licdn.com/dms/image/C4D12AQHLNnwQYnegRA/article-inline_image-shrink_1500_2232/0?e=1547078400&amp;v=beta&amp;t=Dfko67V2QwBBrdCgr1Kc4wXOJCHr34qY_yToSfG0h20" class="kg-image"></figure><p><strong><strong>//Step Three:</strong></strong></p><p>Import the tables that you need.</p><figure class="kg-card kg-image-card"><img src="https://media.licdn.com/dms/image/C4D12AQHgs2cGlaCk_w/article-inline_image-shrink_1500_2232/0?e=1547078400&amp;v=beta&amp;t=TSGWgOywkUZdyosOmexUmyA5ZrpUIW1UukYIJk4qF-g" class="kg-image"></figure><p>You will notice that the Tables are imported as Entities, but relationships between those Entities are not there. We have by creating associations as such:</p><figure class="kg-card kg-image-card"><img src="https://media.licdn.com/dms/image/C4D12AQE0HiAqeCFy9A/article-inline_image-shrink_1500_2232/0?e=1547078400&amp;v=beta&amp;t=lOcr3VKiY4qslIrrPKiKk-7InAcEGQQcfPz65la_MJ0" class="kg-image"></figure>
 </article>  
